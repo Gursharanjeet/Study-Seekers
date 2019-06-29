@@ -1,0 +1,259 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  
+} 
+body{
+  background:white;
+}
+.conte{
+  font-size: 1.3em;
+  margin: 10px;
+}
+.admincontent{
+    font-size: 2.4em!important;
+    color: black;
+    margin: 14px;
+}
+.heading{
+    color: black;
+    font-size: 3em;
+}
+.log
+{
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    width: 29%;
+    height: 31%;
+}
+.content{
+  padding: 10px;
+  font-size: 1.2em;
+  color: black;
+}
+.ncontent{
+  padding: 30px;
+  font-size: 1.4em;
+  color: black;
+}
+nav {
+    font-family: Segoe Print;
+    background-color:#FF9800;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.ques{
+      padding: 10px;
+    font-size: 1.3em;
+}
+.ans{
+  transition: 0.5s;
+  display: none;
+}
+.slider{  
+  margin-top:-25px;
+  height: 85%;
+  width: 100%;
+  background: url('/storage/images/header.jpg');
+  background-image: center;
+  text-align: center;
+}
+.image_text
+{
+  position: absolute;
+  top: 50%;
+  border: solid;
+  border-radius: 20px;
+  background-color:#FF9800; 
+  color: white;
+  left: 20%;
+  padding: 5px;
+}
+.image_text h1{
+  color: black;
+  font-family: Segoe Print;
+}
+.mar{
+  margin: 47px;
+}
+.logcon{
+  -webkit-box-shadow: 1px 16px 18px 7px rgba(135,135,135,1);
+  -moz-box-shadow: 1px 16px 18px 7px rgba(135,135,135,1);
+  box-shadow: 1px 16px 18px 7px rgba(135,135,135,1);
+  width: 30%;
+  height: 40%;
+  position: center;
+}
+
+nav a {
+    color:black !important;
+    text-decoration:none
+}
+nav a:hover {
+    color: white !important;
+    transition: 0.5s;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#FF9800;
+}
+.logo {
+    margin-top: 7px;
+}
+
+.logo img {
+    height: 65px;
+    margin-top: -5px;
+    margin-right: -40px;
+}
+.pad{
+  width: 100%;
+  height: 20%;
+}
+.logo-text {
+    font-size: 1.2em;
+}
+.jumbotron{
+  padding: 12px;
+}
+.footer {
+    font-family: Segoe Print;
+    font-size: 1.5em;
+    height: 108px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 26px;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    color: black;
+    text-align: center;
+    background-color:#FF9800 ;
+}
+#go_top {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#go_top::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#go_top:hover {
+  cursor: pointer;
+  background-color:red;
+}
+#go_top:active {
+  background-color: #555;
+}
+#go_top.show {
+  opacity: 1;
+  visibility: visible;
+}
+.log_form_out{
+  background:#435c70;
+  padding:30px;
+  width: 400px;
+  border-radius: 20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.log_form_out h1{
+  color: gray;
+  font-size: 2.5em;
+}
+.log_form_out a{
+  color: white;
+}
+.reg_form_out{
+  background:#435c70;
+  width: 400px;
+  border-radius: 20px;
+	left: 0;
+	right: 0;
+  margin: auto;
+}
+.reg_form_out h1{
+  color: gray;
+  font-size: 2.5em;
+}
+.contadd{
+  font-size: 2em;
+  margin: 10px;
+  padding: 5px;
+  text-align: right;
+}
+form span{
+  color: red;
+  padding-left: 8px;
+  font-family: "Times New Roman";
+  font-size: 13px;
+}
+.cont{
+  margin: 20px;
+  text-align: center;
+  color:white;
+}
+.head{
+  height: 60px;
+  padding:10px;
+  background: #2a445e;
+  color: white;
+}
+.head h3{
+  margin-left: 70px;
+}
+.head a{
+  color: white;
+  right: 20;
+  position: fixed;
+}
+.smal{
+  width: 400px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  color: white;
+  top:100px;
+	margin: auto;
+}
+.head a:hover{
+  color: black;
+  transition: 0.5s;
+}
+.form-group {
+    margin-bottom: 0rem;
+}
+@media only screen and (max-width: 994px){
+  .nav-link {
+    margin-left: 60px;
+  }
+}
